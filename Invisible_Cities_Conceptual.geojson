@@ -1,0 +1,1270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.1176350653621,
+          34.483610629559486
+        ]
+      },
+      "properties": {
+        "city_id": 1,
+        "city_name": "Diomira",
+        "city_s_defining_characteristics_keywords": "Familiar_beauties_September_evening_envy_of_past_happiness_deja_vu",
+        "key_symbolic_features_list": "Silver_domes_bronze_statues_crystal_theater_golden_cock_multicolored_lamps_food_stalls_woman's_voice",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Nostalgia_Memory_Illusion_of_Past",
+        "theme_explanation_summary": "The city evokes envy for a perceived identical past happiness_ highlighting memory's elusive nature.",
+        "prevailing_mood_tags": "Envious_Nostalgic_Wistful",
+        "observed_rhetorical_strategies": "Descriptive_listing_Sensory_detail_Emotional_focus",
+        "primary_theme": "Nostalgia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1480318979261,
+          40.826202742309704
+        ]
+      },
+      "properties": {
+        "city_id": 2,
+        "city_name": "Isidora",
+        "city_s_defining_characteristics_keywords": "City_of_dreams_old_age_arrival_desires_as_memories_spiral_forms",
+        "key_symbolic_features_list": "Spiral_seashells_perfect_telescopes_violins_cockfights_hesitating_foreigners_old_men_on_wall_square",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Time_Desire_Memory_Regret",
+        "theme_explanation_summary": "The city of youthful desires is reached in old age_ transforming those desires into memories.",
+        "prevailing_mood_tags": "Melancholic_Reflective_Resigned",
+        "observed_rhetorical_strategies": "Contrast_(youth/age)_Symbolism_Narrative_framing",
+        "primary_theme": "Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.62549287794971,
+          43.21303424003623
+        ]
+      },
+      "properties": {
+        "city_id": 3,
+        "city_name": "Dorothea",
+        "city_s_defining_characteristics_keywords": "Two_descriptive_modes_structured_system_vs_experiential_encounter_choice_of_paths_past_present_future",
+        "key_symbolic_features_list": "Aluminum_towers_seven_gates_green_canals_nine_quarters_nubile_girls_trade_monopolies_camel_driver's_memory_market_trumpets",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Knowledge_Subjectivity_Pathways",
+        "theme_explanation_summary": "Dorothea's reality depends on the observer's approach_ shaping understanding through structure or experience.",
+        "prevailing_mood_tags": "Analytical_Subjective_Dichotomous",
+        "observed_rhetorical_strategies": "Juxtaposition_of_narratives_Metanarrative_Inventory_vs_Anecdote",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.42733221050752,
+          46.09698207590326
+        ]
+      },
+      "properties": {
+        "city_id": 4,
+        "city_name": "Zaira",
+        "city_s_defining_characteristics_keywords": "High_bastions_relational_space_past_events_memory_sponge_imprinted_details",
+        "key_symbolic_features_list": "Hanged_usurper_queen's_procession_adulterer's_leap_gunboat_firing_mended_fish_nets_lines_of_a_hand_scratches_indentations",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Memory_History_Imprint_Past",
+        "theme_explanation_summary": "The city's physical form is intrinsically defined by and contains its past relationships and events.",
+        "prevailing_mood_tags": "Nostalgic_Burdened_Dense_Static",
+        "observed_rhetorical_strategies": "Metaphor_(city_as_sponge_hand)_Detailed_Inventory_Accumulation",
+        "primary_theme": "Memory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.91760365048907,
+          42.08567346785292
+        ]
+      },
+      "properties": {
+        "city_id": 5,
+        "city_name": "Anastasia",
+        "city_s_defining_characteristics_keywords": "Desire_awakening_simultaneous_fulfillment_beautiful_trap_concentric_canals_enslavement",
+        "key_symbolic_features_list": "Precious_stones_(agate_onyx_chrysoprase)_kites_golden_pheasant_bathing_women_labor_as_desire_form_sweet_marjoram",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Desire_Enslavement_Illusion_Paradox",
+        "theme_explanation_summary": "The city's promise of total desire satisfaction paradoxically results in inhabitants' complete enslavement to it.",
+        "prevailing_mood_tags": "Deceptive_Enticing_Malignant_Benign_Paradoxical",
+        "observed_rhetorical_strategies": "Sensory_Detail_Juxtaposition_Irony_Rhetorical_listing",
+        "primary_theme": "Desire"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.16062562168649,
+          44.39158555543054
+        ]
+      },
+      "properties": {
+        "city_id": 6,
+        "city_name": "Tamara",
+        "city_s_defining_characteristics_keywords": "City_of_signs_images_meaning_other_things_undiscovered_reality_repeated_discourse",
+        "key_symbolic_features_list": "Signboards_statues_shields_(lions_dolphins_towers_stars)_gods'_attributes_wares_as_signs_clouds_as_figures_written_pages",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Semiotics_Interpretation_Surface_Reality_Concealment",
+        "theme_explanation_summary": "Tamara's identity is constructed through layers of signs_ obscuring its true nature beneath imposed interpretation.",
+        "prevailing_mood_tags": "Overwhelming_Superficial_Elusive_Interpretive",
+        "observed_rhetorical_strategies": "Catalog_Metaphor_(city_as_written_pages)_Extended_analogy_Irony",
+        "primary_theme": "Semiotics"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.05927419038883,
+          46.02884902258099
+        ]
+      },
+      "properties": {
+        "city_id": 7,
+        "city_name": "Zora",
+        "city_s_defining_characteristics_keywords": "Unforgettable_order_memory_aid_motionless_sameness_disintegrated_forgotten",
+        "key_symbolic_features_list": "Musical_score_pattern_copper_clock_barber's_awning_fountain_glass_tower_hermit_statue_honeycomb_armature",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Memory_Order_Stasis_Oblivion",
+        "theme_explanation_summary": "Zora's rigid structure_ designed for perfect memorability_ paradoxically leads to its stasis and eventual oblivion.",
+        "prevailing_mood_tags": "Ordered_Static_Paradoxical_Faded",
+        "observed_rhetorical_strategies": "Analogy_(musical_score_armature)_Irony_Personification_(earth_forgotten)",
+        "primary_theme": "Memory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.54640091476725,
+          53.099090435393805
+        ]
+      },
+      "properties": {
+        "city_id": 8,
+        "city_name": "Despina",
+        "city_s_defining_characteristics_keywords": "Dual_perspective_border_city_desert_opposition_contrasting_desires_ship_camel",
+        "key_symbolic_features_list": "Camel_driver_view_(ship_port_taverns)_sailor_view_(camel_oasis_palaces_dancing_girls)_two_deserts_horizons",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perspective_Desire_Duality_Opposition",
+        "theme_explanation_summary": "Despina's form is perceived dually_ shaped by the contrasting desires of desert-opposed travelers approaching it.",
+        "prevailing_mood_tags": "Contrastive_Hopeful_Mirage-like_Dualistic",
+        "observed_rhetorical_strategies": "Juxtaposition_Parallel_structure_Symbolism_(ship_camel)_Sensory_imagery",
+        "primary_theme": "Perspective"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49583750172408,
+          45.78094864607392
+        ]
+      },
+      "properties": {
+        "city_id": 9,
+        "city_name": "Zirma",
+        "city_s_defining_characteristics_keywords": "Redundant_city_repeated_signs_memory_creation_distinct_yet_similar_memories",
+        "key_symbolic_features_list": "Blind_black_man_lunatic_on_cornice_girl_with_puma_dirigibles_tattoo_shops_obese_women_underground_trains",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Memory_Redundancy_Perception_Existence",
+        "theme_explanation_summary": "Zirma achieves existence through redundant signs that imprint varied_ yet characteristic_ memories on its travelers.",
+        "prevailing_mood_tags": "Repetitive_Memorable_Fragmented_Subjective",
+        "observed_rhetorical_strategies": "Repetition_Listing_Contrast_(shared_vs_individual_memory)_Anecdotal_evidence",
+        "primary_theme": "Memory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.19491597663702,
+          44.16177261150614
+        ]
+      },
+      "properties": {
+        "city_id": 10,
+        "city_name": "Isaura",
+        "city_s_defining_characteristics_keywords": "City_of_thousand_wells_subterranean_lake_upward_movement_dual_religion_invisible_landscape",
+        "key_symbolic_features_list": "Buried_lake_vertical_holes_wells_buckets_pulleys_windmills_aqueducts_weathercocks_gods_of_depths_gods_of_heights",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Duality_Belief_Hidden_Visible_Ascension",
+        "theme_explanation_summary": "Isaura's visible upward structure and dualistic beliefs are conditioned by its hidden subterranean lake.",
+        "prevailing_mood_tags": "Mysterious_Vertical_Spiritual_Divided",
+        "observed_rhetorical_strategies": "Juxtaposition_(above/below)_Symbolism_Descriptive_catalog_Religious_allegory",
+        "primary_theme": "Duality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4456239481804,
+          41.464873204116316
+        ]
+      },
+      "properties": {
+        "city_id": 11,
+        "city_name": "Maurilia",
+        "city_s_defining_characteristics_keywords": "Past_vs_present_postcard_city_unchanged_name_different_cities_nostalgia_disconnection",
+        "key_symbolic_features_list": "Old_postcards_hen_vs_bus_station_bandstand_vs_overpass_parasols_vs_munitions_factory_unchanged_inhabitants_names_absent_gods",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Time_Memory_Identity_Change_Nostalgia",
+        "theme_explanation_summary": "Maurilia explores the disconnection between past and present cities sharing a name_ questioning authentic nostalgia.",
+        "prevailing_mood_tags": "Nostalgic_Detached_Ironic_Reflective",
+        "observed_rhetorical_strategies": "Comparison_Contrast_Hypothetical_dialogue_Metaphor_(city_identity)",
+        "primary_theme": "Time"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6910905315976,
+          55.30584944633784
+        ]
+      },
+      "properties": {
+        "city_id": 12,
+        "city_name": "Fedora",
+        "city_s_defining_characteristics_keywords": "City_of_unrealized_potentials_crystal_globes_miniature_models_ideal_cities_assumptions",
+        "key_symbolic_features_list": "Metal_building_crystal_globes_blue_city_models_museum_of_desires_medusa_pond_elephant_avenue_spiral_minaret",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Possibility_Unfulfillment_Desire_Reality_Choice",
+        "theme_explanation_summary": "Fedora's museum of miniature ideal cities embodies unfulfilled desires and potentials_ existing as mere assumptions.",
+        "prevailing_mood_tags": "Wistful_Conceptual_Reflective_Illusory",
+        "observed_rhetorical_strategies": "Metaphor_(globes_as_possibilities)_Descriptive_listing_Direct_address_(to_Khan)",
+        "primary_theme": "Possibility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.75298031563698,
+          42.85793166182487
+        ]
+      },
+      "properties": {
+        "city_id": 13,
+        "city_name": "Zoe",
+        "city_s_defining_characteristics_keywords": "Indivisible_existence_undifferentiated_spaces_lack_of_distinction_ambiguous_boundaries_city_of_differences_in_mind",
+        "key_symbolic_features_list": "Pyramid_roofs_(leprosarium_or_baths)_interchangeable_functions_(sleep_cook_reign)_no_clear_palace_prison_slum_howl_of_wolves",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Distinction_Ambiguity_Existence",
+        "theme_explanation_summary": "Zoe's lack of internal differentiation challenges the mind's tendency to impose order and categories.",
+        "prevailing_mood_tags": "Ambiguous_Confusing_Homogenous_Questioning",
+        "observed_rhetorical_strategies": "Rhetorical_questions_Contrast_(Zoe_vs_typical_cities)_Hypothesis_testing",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.6724053345341,
+          48.04050943716415
+        ]
+      },
+      "properties": {
+        "city_id": 14,
+        "city_name": "Zenobia",
+        "city_s_defining_characteristics_keywords": "Happy_city_high_pilings_dry_terrain_desire_shaping_form_unclassifiable_happiness",
+        "key_symbolic_features_list": "Bamboo_and_zinc_houses_stilts_platforms_ladders_sidewalks_belvederes_no_memory_of_founding_desire_banners_ribbons",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Happiness_Desire_Form_Adaptation",
+        "theme_explanation_summary": "Zenobia embodies happiness not by a fixed state_ but by its continuous adaptation to desires.",
+        "prevailing_mood_tags": "Content_Adaptable_Joyful_Uncertain_origin",
+        "observed_rhetorical_strategies": "Descriptive_listing_Philosophical_reflection_Categorization_and_its_rejection",
+        "primary_theme": "Happiness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.96202029510157,
+          46.38932030188767
+        ]
+      },
+      "properties": {
+        "city_id": 15,
+        "city_name": "Euphemia",
+        "city_s_defining_characteristics_keywords": "Trading_city_memory_exchange_storytelling_transformed_memories_solstice_equinox",
+        "key_symbolic_features_list": "Merchants_of_seven_nations_cargoes_(ginger_cotton_nuts_muslin)_fireside_stories_wolf_sister_treasure_battle_transformed_memories",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Memory_Exchange_Storytelling_Transformation",
+        "theme_explanation_summary": "In Euphemia_ memories are traded and transformed like goods_ altering personal histories through shared narratives.",
+        "prevailing_mood_tags": "Communal_Transformative_Narrative_Fluid",
+        "observed_rhetorical_strategies": "Metaphor_(memory_as_trade)_Repetition_with_variation_Symbolic_setting_(market_fires)",
+        "primary_theme": "Memory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.41811508873919,
+          42.057000321564196
+        ]
+      },
+      "properties": {
+        "city_id": 16,
+        "city_name": "Zobeide",
+        "city_s_defining_characteristics_keywords": "Dream_built_city_chase_motif_inescapable_trap_repeated_dream_collective_construction",
+        "key_symbolic_features_list": "White_city_moon_exposed_wound_streets_naked_running_woman_lost_fugitive_altered_arcades_stairs",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Desire_Obsession_Unattainability_Entrapment_Dream",
+        "theme_explanation_summary": "Zobeide is built from a shared dream of chasing an elusive woman_ becoming a trap itself.",
+        "prevailing_mood_tags": "Obsessive_Frustrated_Labyrinthine_Ugly",
+        "observed_rhetorical_strategies": "Narrative_of_origin_Symbolism_Repetition_Irony",
+        "primary_theme": "Desire"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.15688209589587,
+          44.58981536497063
+        ]
+      },
+      "properties": {
+        "city_id": 17,
+        "city_name": "Hypatia",
+        "city_s_defining_characteristics_keywords": "Language_of_things_inverted_signs_deceptive_appearances_liberation_from_images_no_language_without_deceit",
+        "key_symbolic_features_list": "Magnolia_garden_(suicides)_palace_(convicts)_library_(opium_smoker)_philosopher_on_lawn_stables_(amorous_women)_cemeteries_(musicians)_citadel_pinnacle",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Semiotics_Deception_Reality_Interpretation_Signs",
+        "theme_explanation_summary": "Hypatia subverts expected meanings of signs_ forcing reinterpretation and acknowledging language's inherent deceit.",
+        "prevailing_mood_tags": "Disorienting_Ironic_Subversive_Philosophical",
+        "observed_rhetorical_strategies": "Juxtaposition_of_opposites_Symbolic_inversion_Direct_address_Philosophical_aphorism",
+        "primary_theme": "Semiotics"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.41172891871695,
+          38.45353359894746
+        ]
+      },
+      "properties": {
+        "city_id": 18,
+        "city_name": "Armilla",
+        "city_s_defining_characteristics_keywords": "Unfinished_or_demolished_city_exposed_pipes_no_walls_nymphs_naiads_water_realm",
+        "key_symbolic_features_list": "Vertical_water_pipes_taps_showers_spouts_lavabos_bathtubs_porcelain_young_women_bathing_singing_maidens",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Incompleteness_Nature_Myth_Absence_Human_Construction",
+        "theme_explanation_summary": "Armilla's skeletal structure of pipes_ devoid of human habitation_ becomes a realm for mythical water spirits.",
+        "prevailing_mood_tags": "Ethereal_Incomplete_Mythical_Serene_Mysterious",
+        "observed_rhetorical_strategies": "Descriptive_imagery_Hypothetical_explanations_Mythological_allusion",
+        "primary_theme": "Incompleteness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.93557751026266,
+          42.01699983230372
+        ]
+      },
+      "properties": {
+        "city_id": 19,
+        "city_name": "Chloe",
+        "city_s_defining_characteristics_keywords": "City_of_strangers_imagined_encounters_unspoken_desires_chaste_city_voluptuous_vibration",
+        "key_symbolic_features_list": "Passing_glances_imagined_meetings_parasol_girl_woman_in_black_tattooed_giant_twins_blind_man_with_cheetah_unrealized_fantasies",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Desire_Alienation_Imagination_Unspoken_Communication_Fantasy",
+        "theme_explanation_summary": "Chloe thrives on the unspoken_ imagined interactions between strangers_ maintaining a chaste surface over seething fantasies.",
+        "prevailing_mood_tags": "Tense_Vibrating_Imaginative_Chaste_Restrained",
+        "observed_rhetorical_strategies": "Listing_of_characters_Contrast_(imagined_vs_real)_Sensory_detail_Paradox",
+        "primary_theme": "Desire"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.26542113727363,
+          44.91266022884869
+        ]
+      },
+      "properties": {
+        "city_id": 20,
+        "city_name": "Valdrada",
+        "city_s_defining_characteristics_keywords": "Twin_city_reflection_mirror_image_self_awareness_no_love_between_twins_asymmetrical_repetition",
+        "key_symbolic_features_list": "Lake_shore_city_reflected_city_verandas_parapets_rooms'_interiors_mirrors_of_wardrobes_lovers'_actions_murderers'_actions",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Duality_Reflection_Self_Perception_Illusion_Identity",
+        "theme_explanation_summary": "Valdrada's mirrored existence forces acute self-awareness_ yet the city and its reflection lack true connection.",
+        "prevailing_mood_tags": "Reflective_Cold_Detached_Symmetrical_Unloving",
+        "observed_rhetorical_strategies": "Extended_metaphor_(mirror)_Parallelism_Philosophical_observation_Detailed_description",
+        "primary_theme": "Duality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95335155199977,
+          53.6131230809392
+        ]
+      },
+      "properties": {
+        "city_id": 21,
+        "city_name": "Olivia",
+        "city_s_defining_characteristics_keywords": "Duality_of_description_words_vs_reality_prosperity_vs_squalor_falsehood_in_things",
+        "key_symbolic_features_list": "Filigree_palaces_white_peacock_vs_soot_grease_saddlers'_shops_vs_repetitive_toil_illuminated_canoes_vs_jokes_sarcasm_sleepwalkers",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Language_Reality_Deception_Truth_Dichotomy",
+        "theme_explanation_summary": "Olivia reveals that words can describe opposing realities; true falsehood lies not in words_ but in things.",
+        "prevailing_mood_tags": "Ironic_Dichotomous_Critical_Revealing",
+        "observed_rhetorical_strategies": "Juxtaposition_Conditional_statements_Metaphor_Direct_assertion",
+        "primary_theme": "Language"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.88217962411483,
+          34.2847100157807
+        ]
+      },
+      "properties": {
+        "city_id": 22,
+        "city_name": "Sophronia",
+        "city_s_defining_characteristics_keywords": "Two_half_cities_permanent_temporary_cyclical_dismantling_waiting_for_completeness",
+        "key_symbolic_features_list": "Amusement_park_half_(roller_coaster_carousel_Ferris_wheel)_stone_half_(bank_factories_palaces)_annual_itinerary_vacant_lots",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Permanence_Transience_Duality_Cycles_Wholeness",
+        "theme_explanation_summary": "Sophronia's dual nature_ one fixed_ one mobile_ illustrates a cyclical quest for temporary completeness.",
+        "prevailing_mood_tags": "Cyclical_Divided_Expectant_Incomplete",
+        "observed_rhetorical_strategies": "Contrast_Symbolic_halves_Narrative_of_process_Personification_(city_counts_days)",
+        "primary_theme": "Permanence"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.91835176311707,
+          42.958547806709184
+        ]
+      },
+      "properties": {
+        "city_id": 23,
+        "city_name": "Eutropia",
+        "city_s_defining_characteristics_keywords": "Multiple_identical_cities_rotational_habitation_renewed_life_unchanging_whole_empty_chessboard",
+        "key_symbolic_features_list": "Scattered_cities_vast_plateau_empty_cities_new_jobs_new_wives_new_pastimes_Mercury_god_of_fickle",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Change_Sameness_Illusion_of_Novelty_Repetition",
+        "theme_explanation_summary": "Eutropia offers constant renewal by shifting inhabitants between identical cities_ yet the overall existence remains static.",
+        "prevailing_mood_tags": "Repetitive_Illusory_Monotonous_Paradoxical",
+        "observed_rhetorical_strategies": "Paradox_Metaphor_(empty_chessboard)_Mythological_allusion_Detailed_process_description",
+        "primary_theme": "Change"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.69523792659626,
+          43.19229838064864
+        ]
+      },
+      "properties": {
+        "city_id": 24,
+        "city_name": "Zemrude",
+        "city_s_defining_characteristics_keywords": "Mood_dependent_form_upper_lower_city_shifting_gaze_downward_sink_rare_reversal",
+        "key_symbolic_features_list": "Whistling_upward_gaze_(window_sills_curtains_fountains)_downward_gaze_(gutters_manhole_covers_fish_scales)_ill_humor_cellars_foundations_wells",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Subjectivity_Mood_Perspective_Descent",
+        "theme_explanation_summary": "Zemrude's perceived form changes with the observer's mood and gaze_ often leading to a downward focus.",
+        "prevailing_mood_tags": "Subjective_Shifting_Gloomy_Downward",
+        "observed_rhetorical_strategies": "Conditional_structure_Sensory_detail_Contrast_(upper/lower)_Metaphorical_sinking",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.4627443302488,
+          43.21543364168167
+        ]
+      },
+      "properties": {
+        "city_id": 25,
+        "city_name": "Aglaura",
+        "city_s_defining_characteristics_keywords": "Reported_city_vs_visible_city_enduring_qualities_changed_norms_lost_recollection_words_imprison",
+        "key_symbolic_features_list": "Proverbial_virtues_faults_ancient_observers_colorless_city_hint_of_magnificence_lost_words_to_fix_it",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Language_Reality_Memory_Description",
+        "theme_explanation_summary": "Aglaura exists more in its storied reputation than its physical presence_ as language fails to capture its true essence.",
+        "prevailing_mood_tags": "Elusive_Indescribable_Faded_Legendary",
+        "observed_rhetorical_strategies": "Juxtaposition_(reported/seen)_Metanarrative_reflection_Rhetorical_dilemma",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.56539807906057,
+          37.30259586691003
+        ]
+      },
+      "properties": {
+        "city_id": 26,
+        "city_name": "Octavia",
+        "city_s_defining_characteristics_keywords": "Spider_web_city_suspended_over_void_precarious_life_foundation_as_net_finite_existence",
+        "key_symbolic_features_list": "Precipice_ropes_chains_catwalks_wooden_ties_hempen_strands_net_as_support_hanging_houses_rope_ladders_chandeliers",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Precarity_Existence_Support_Temporality_Void",
+        "theme_explanation_summary": "Octavia's existence suspended over an abyss on a finite net highlights life's inherent precariousness.",
+        "prevailing_mood_tags": "Precarious_Suspended_Fragile_Uncertain",
+        "observed_rhetorical_strategies": "Vivid_imagery_Metaphor_(spider-web_net)_Direct_address_Declarative_statement",
+        "primary_theme": "Precarity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.42500410264668,
+          54.1220863230511
+        ]
+      },
+      "properties": {
+        "city_id": 27,
+        "city_name": "Ersilia",
+        "city_s_defining_characteristics_keywords": "City_of_relationships_strings_abandoned_structures_rebuilt_elsewhere_spider_webs_of_form",
+        "key_symbolic_features_list": "Colored_strings_(white_black_gray)_blood_trade_authority_agency_dismantled_houses_taut_strings_poles_ruins_spider_webs",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Relationships_Structure_Transience_Form_Abstraction",
+        "theme_explanation_summary": "Ersilia defines itself by abstract relationship strings_ leaving behind skeletal forms when inhabitants relocate.",
+        "prevailing_mood_tags": "Abstract_Transient_Patterned_Fragile",
+        "observed_rhetorical_strategies": "Symbolism_(strings)_Narrative_of_process_Metaphor_(spider-webs)",
+        "primary_theme": "Relationships"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.80221803893411,
+          53.42100207240527
+        ]
+      },
+      "properties": {
+        "city_id": 28,
+        "city_name": "Baucis",
+        "city_s_defining_characteristics_keywords": "Invisible_city_on_stilts_earth_avoidance_three_hypotheses_contemplating_absence",
+        "key_symbolic_features_list": "Slender_stilts_above_clouds_ladders_flamingo_legs_pierced_shadow_spyglasses_telescopes_hating_earth_respecting_earth_loving_former_earth",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perspective_Absence_Observation_Detachment_Nature",
+        "theme_explanation_summary": "Baucis_ elevated and unseen_ reflects on its inhabitants' detached relationship with the earth below.",
+        "prevailing_mood_tags": "Elusive_Elevated_Contemplative_Ambiguous",
+        "observed_rhetorical_strategies": "Descriptive_negation_Hypothetical_reasoning_Symbolism_(stilts_telescopes)",
+        "primary_theme": "Perspective"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2659165454992,
+          50.88148424351938
+        ]
+      },
+      "properties": {
+        "city_id": 29,
+        "city_name": "Leandra",
+        "city_s_defining_characteristics_keywords": "City_of_household_gods_Lares_Penates_endless_debate_criticism_continuity_and_change",
+        "key_symbolic_features_list": "Tiny_gods_door_gods_(Penates)_kitchen_gods_(Lares)_family_events_criticism_past_vs_future_murmuring_laughter",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Domesticity_Tradition_Change_Perspective_Essence",
+        "theme_explanation_summary": "Leandra's essence is debated by its dual household gods_ representing conflicting views on tradition and change.",
+        "prevailing_mood_tags": "Quarrelsome_Domestic_Whispering_Enduring",
+        "observed_rhetorical_strategies": "Personification_(gods)_Dialogue_Contrast_Detailed_characterization",
+        "primary_theme": "Domesticity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.99878832261669,
+          57.03359798784724
+        ]
+      },
+      "properties": {
+        "city_id": 30,
+        "city_name": "Melania",
+        "city_s_defining_characteristics_keywords": "City_of_dialogue_fixed_roles_changing_actors_population_renewal_evolving_plot",
+        "key_symbolic_features_list": "Braggart_soldier_parasite_miserly_father_amorous_daughter_foolish_servant_hypocrite_confidante_astrologer_reassigned_roles",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Roles_Repetition_Change_Performance_Identity",
+        "theme_explanation_summary": "Melania's life is a continuous play where actors change but roles persist_ showing societal scripts.",
+        "prevailing_mood_tags": "Theatrical_Repetitive_Cyclical_Dynamic",
+        "observed_rhetorical_strategies": "Theatrical_metaphor_Listing_of_archetypes_Narrative_of_process",
+        "primary_theme": "Roles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5578971658776,
+          35.253306268821916
+        ]
+      },
+      "properties": {
+        "city_id": 31,
+        "city_name": "Esmeralda",
+        "city_s_defining_characteristics_keywords": "Water_city_network_of_routes_no_repetition_layered_paths_hidden_evident",
+        "key_symbolic_features_list": "Canals_streets_land_boat_choice_zigzag_routes_up_down_course_cats_thieves_lovers_routes_rats_conspirators_routes_swallows_routes",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Choice_Movement_Complexity_Perspective_Layering",
+        "theme_explanation_summary": "Esmeralda's multi-layered network of routes offers infinite unrePEated paths_ reflecting life's complex choices.",
+        "prevailing_mood_tags": "Labyrinthine_Dynamic_Fluid_Layered",
+        "observed_rhetorical_strategies": "Detailed_description_Listing_Metaphor_(map_of_routes)_Contrast_(evident/hidden)",
+        "primary_theme": "Choice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2319062277279,
+          42.894490706488625
+        ]
+      },
+      "properties": {
+        "city_id": 32,
+        "city_name": "Phyllis",
+        "city_s_defining_characteristics_keywords": "City_of_surprises_fading_details_internalized_routes_elusive_gaze_void_space",
+        "key_symbolic_features_list": "Varied_bridges_canals_diverse_windows_pavements_caper_bush_statues_onion_dome_zigzag_lines_patches_of_sunlight_shade",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Memory_Subjectivity_Illusion_Elusiveness",
+        "theme_explanation_summary": "Phyllis initially delights with varied details_ but prolonged stay reduces it to internalized_ subjective routes.",
+        "prevailing_mood_tags": "Elusive_Surprising_Fading_Subjective",
+        "observed_rhetorical_strategies": "Contrast_(initial_vs_later_perception)_Sensory_detail_Metaphorical_fading_Rhetorical_question",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.02927565125633,
+          52.11561017580587
+        ]
+      },
+      "properties": {
+        "city_id": 33,
+        "city_name": "Pyrrha",
+        "city_s_defining_characteristics_keywords": "Imagined_city_vs_real_city_name_overwriting_memory_unseen_cities_fragmented_figures",
+        "key_symbolic_features_list": "Imagined_(fortified_bay_high_windows_central_square_well)_Real_(invisible_sea_dune_long_streets_clumped_houses_sawmills_water_pumps_yellowish_dust)",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Imagination_Reality_Memory_Naming_Perception",
+        "theme_explanation_summary": "Pyrrha's reality overwrites its imagined form_ highlighting how names anchor perception_ yet many imagined cities remain.",
+        "prevailing_mood_tags": "Disillusioned_Transformed_Evocative_Reflective",
+        "observed_rhetorical_strategies": "Contrast_(imagined/real)_Personal_anecdote_Listing_Philosophical_reflection",
+        "primary_theme": "Imagination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.84114089651408,
+          33.560830977346974
+        ]
+      },
+      "properties": {
+        "city_id": 34,
+        "city_name": "Adelma",
+        "city_s_defining_characteristics_keywords": "City_of_the_dead_resemblances_projected_forms_dying_arrival_unhappy_beyond",
+        "key_symbolic_features_list": "Dead_soldier_dead_fisherman_fever_victim_(father)_mad_girl_(suicide)_grandmother_stevedores_unknown_faces",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Death_Memory_Recognition_Grief_Afterlife",
+        "theme_explanation_summary": "In Adelma_ travelers see faces of their dead in the living_ suggesting arrival means joining them.",
+        "prevailing_mood_tags": "Mournful_Somber_Haunting_Resigned",
+        "observed_rhetorical_strategies": "Personal_narrative_Repetitive_recognition_Metaphor_(mask)_Philosophical_conclusion",
+        "primary_theme": "Death"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.84272903735635,
+          46.32453874000078
+        ]
+      },
+      "properties": {
+        "city_id": 35,
+        "city_name": "Eudoxia",
+        "city_s_defining_characteristics_keywords": "City_and_carpet_true_form_hidden_order_divine_pattern_map_of_universe",
+        "key_symbolic_features_list": "Winding_alleys_carpet_design_symmetrical_motives_colored_spires_true_relationship_oracle_two_objects_starry_sky_reflection",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Order_Chaos_Perception_Pattern_Reality_Interpretation",
+        "theme_explanation_summary": "Eudoxia's true ordered form_ hidden beneath its chaos_ is revealed in its carpet_ a map mirroring cosmic order or vice-versa.",
+        "prevailing_mood_tags": "Chaotic_Ordered_Mysterious_Interpretive",
+        "observed_rhetorical_strategies": "Extended_analogy_(carpet)_Contrast_(surface/depth)_Philosophical_inquiry_Symbolism",
+        "primary_theme": "Order"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.72477505724684,
+          44.277852497992725
+        ]
+      },
+      "properties": {
+        "city_id": 36,
+        "city_name": "Moriana",
+        "city_s_defining_characteristics_keywords": "Two_faced_city_obverse_hidden_face_no_thickness_paper_sheet_cannot_look_at_each_other",
+        "key_symbolic_features_list": "Alabaster_gates_coral_columns_glass_villas_dancing_girls_vs_rusting_metal_sackcloth_spikes_soot_blind_walls",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Duality_Appearance_Reality_Hidden_Nature_Perspective",
+        "theme_explanation_summary": "Moriana presents a beautiful facade and a hidden decaying obverse_ like a two-sided sheet_ inseparable yet distinct.",
+        "prevailing_mood_tags": "Deceptive_Dualistic_Contrasting_Superficial",
+        "observed_rhetorical_strategies": "Juxtaposition_Metaphor_(sheet_of_paper)_Sensory_contrast_Descriptive_listing",
+        "primary_theme": "Duality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.43521629809324,
+          50.07361901294393
+        ]
+      },
+      "properties": {
+        "city_id": 37,
+        "city_name": "Clarice",
+        "city_s_defining_characteristics_keywords": "Tormented_history_decay_renewal_rearranged_splendor_fragmentary_survival_lost_order",
+        "key_symbolic_features_list": "First_Clarice_model_plagues_survivors_rummaging_repurposed_items_butterfly_Clarice_new_materials_shards_of_splendor_Corinthian_capitals_chicken_run_Museum_of_Capitals",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "History_Memory_Decay_Renewal_Continuity_Fragmentation",
+        "theme_explanation_summary": "Clarice's history of decay and renewal shows how a city's splendor is fragmented_ reordered_ and reinterpreted over time.",
+        "prevailing_mood_tags": "Cyclical_Fragmented_Resilient_Chaotic_Nostalgic",
+        "observed_rhetorical_strategies": "Historical_narrative_Metaphor_(butterfly-Clarice)_Listing_of_details_Speculation",
+        "primary_theme": "History"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.62347637154375,
+          34.206891255760546
+        ]
+      },
+      "properties": {
+        "city_id": 38,
+        "city_name": "Eusapia",
+        "city_s_defining_characteristics_keywords": "Twin_city_underground_dead_copy_living_city_copied_dead_blurred_identities_hooded_brothers",
+        "key_symbolic_features_list": "Identical_underground_city_dried_corpses_carefree_activities_trades_professions_necropolis_of_aspirations_hooded_confraternity_innovations_by_dead",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Death_Life_Imitation_Identity_Influence_Continuity",
+        "theme_explanation_summary": "Eusapia's living city copies its dead counterpart_ which itself innovates_ blurring who influences whom and who is truly alive.",
+        "prevailing_mood_tags": "Macabre_Ironic_Reflective_Ambiguous",
+        "observed_rhetorical_strategies": "Juxtaposition_(living/dead_cities)_Narrative_of_belief_Irony_Paradox",
+        "primary_theme": "Death"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47910625502932,
+          44.15006508356969
+        ]
+      },
+      "properties": {
+        "city_id": 39,
+        "city_name": "Beersheba",
+        "city_s_defining_characteristics_keywords": "Dual_projections_celestial_infernal_misinterpreted_consistency_true_virtue_in_waste_generous_abandon",
+        "key_symbolic_features_list": "Celestial_city_(pure_gold_jewels)_infernal_city_(rubbish_bins_pitch)_architect_designed_inferno_celestial_trash_planet_potato_peels_old_socks",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Duality_Value_Illusion_Reality_Waste_Purity",
+        "theme_explanation_summary": "Beersheba misinterprets its celestial (waste) and infernal (perfection) projections_ true virtue found in generous abandon.",
+        "prevailing_mood_tags": "Ironic_Paradoxical_Judgmental_Spiritual",
+        "observed_rhetorical_strategies": "Symbolic_inversion_Juxtaposition_Paradox_Moral_critique",
+        "primary_theme": "Duality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.64203513395799,
+          48.264668499309295
+        ]
+      },
+      "properties": {
+        "city_id": 40,
+        "city_name": "Leonia",
+        "city_s_defining_characteristics_keywords": "City_of_refuse_daily_renewal_accumulated_past_expanding_rubbish_fortress_of_leftovers",
+        "key_symbolic_features_list": "Fresh_sheets_new_soap_latest_radio_spotless_plastic_bags_squeezed_toothpaste_boilers_pianos_street_cleaners_as_angels_rubbish_mountain_range_infected_ramparts",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Consumerism_Waste_Novelty_Past_Accumulation_Entropy",
+        "theme_explanation_summary": "Leonia's obsession with daily newness creates an ever-expanding fortress of its own discarded past.",
+        "prevailing_mood_tags": "Obsessive_Wasteful_Ephemeral_Overwhelming_Modern",
+        "observed_rhetorical_strategies": "Hyperbole_Detailed_listing_Metaphor_(fortress_of_rubbish)_Social_critique",
+        "primary_theme": "Consumerism"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1691738644051,
+          53.49273934018158
+        ]
+      },
+      "properties": {
+        "city_id": 41,
+        "city_name": "Irene",
+        "city_s_defining_characteristics_keywords": "City_seen_from_distance_magnet_for_thoughts_changes_on_approach_name_for_distance",
+        "key_symbolic_features_list": "Plateau_view_lights_on_pink_settlement_misty_glow_music_firecrackers_gun_rattle_unseen_from_within_different_city_in_midst",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perspective_Perception_Distance_Naming_Elusiveness",
+        "theme_explanation_summary": "Irene's identity is tied to distant observation; it changes upon approach_ a name for an elusive concept.",
+        "prevailing_mood_tags": "Elusive_Distant_Changing_Contemplative",
+        "observed_rhetorical_strategies": "Perspective_shift_Descriptive_imagery_Philosophical_reflection_Rhetorical_question",
+        "primary_theme": "Perspective"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.88839922219817,
+          39.04948684308432
+        ]
+      },
+      "properties": {
+        "city_id": 42,
+        "city_name": "Argia",
+        "city_s_defining_characteristics_keywords": "Earth_instead_of_air_filled_streets_darkness_unseen_inhabitants_deserted_above",
+        "key_symbolic_features_list": "Dirt_filled_streets_clay_packed_rooms_negative_stairways_rocky_terrain_roofs_worm_tunnels_crevices_door_slam_at_night",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Hiddenness_Oppression_Absence_Death_Underworld",
+        "theme_explanation_summary": "Argia's substitution of earth for air signifies a buried_ unseen existence_ suggesting an oppressive or dead city.",
+        "prevailing_mood_tags": "Subterranean_Oppressive_Dark_Silent_Mysterious",
+        "observed_rhetorical_strategies": "Sensory_deprivation_Speculation_Minimalist_description_Symbolic_environment",
+        "primary_theme": "Hiddenness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.24321517268353,
+          40.56023546850688
+        ]
+      },
+      "properties": {
+        "city_id": 43,
+        "city_name": "Thekla",
+        "city_s_defining_characteristics_keywords": "City_under_perpetual_construction_fear_of_destruction_blueprint_in_stars_unfinished_goal",
+        "key_symbolic_features_list": "Plank_fences_sackcloth_screens_scaffoldings_metal_armatures_cranes_hoisting_sacks_sunset_work_stop_starry_sky_as_blueprint",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Construction_Destruction_Perpetuity_Purpose_Ideal",
+        "theme_explanation_summary": "Thekla's endless construction aims to prevent destruction_ its ultimate blueprint revealed only in the stars.",
+        "prevailing_mood_tags": "Endless_Purposeful_Hopeful_Mysterious_Laborious",
+        "observed_rhetorical_strategies": "Dialogue_Symbolism_(stars_blueprint)_Paradox_Irony",
+        "primary_theme": "Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.27913305655834,
+          35.80006160909135
+        ]
+      },
+      "properties": {
+        "city_id": 44,
+        "city_name": "Trude",
+        "city_s_defining_characteristics_keywords": "Identical_city_global_repetition_sameness_no_escape_airport_name_changes_sole_Trude",
+        "key_symbolic_features_list": "Same_airport_suburbs_greenish_yellowish_houses_same_signs_flower_beds_squares_same_hotel_dialogues_goblets",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Sameness_Repetition_Monotony_Globalization_Identity_Loss",
+        "theme_explanation_summary": "Trude represents a world covered by a single_ endlessly repeating city_ where only superficial names differ.",
+        "prevailing_mood_tags": "Monotonous_Homogenous_Trapped_Disorienting",
+        "observed_rhetorical_strategies": "Repetition_Personal_anecdote_Direct_speech_Hyperbole",
+        "primary_theme": "Sameness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.38055702943925,
+          34.18523826770926
+        ]
+      },
+      "properties": {
+        "city_id": 45,
+        "city_name": "Olinda",
+        "city_s_defining_characteristics_keywords": "Concentric_growth_city_within_city_expanding_center_miniature_origin_future_blossoming",
+        "key_symbolic_features_list": "Magnifying_glass_point_pinhead_roofs_antennas_pools_expanding_rings_old_walls_expand_new_quarters_press_from_inside_innermost_circle",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Growth_Miniaturization_Recursion_Origin_Future",
+        "theme_explanation_summary": "Olinda grows concentrically_ with new cities emerging from its core_ maintaining features of its origin.",
+        "prevailing_mood_tags": "Expansive_Recursive_Detailed_Organic",
+        "observed_rhetorical_strategies": "Metaphor_(tree_trunks_blossoming)_Detailed_description_Scale_comparison_Process_narrative",
+        "primary_theme": "Growth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4662128206657,
+          37.30879144333511
+        ]
+      },
+      "properties": {
+        "city_id": 46,
+        "city_name": "Laudomia",
+        "city_s_defining_characteristics_keywords": "Triple_city_living_dead_unborn_seeking_explanation_future_alarm_hourglass",
+        "key_symbolic_features_list": "Living_Laudomia_cemetery_Laudomia_city_of_unborn_stone_slabs_hollow_domes_marble_vein_descendants_funnel-sides_hourglass_bulbs",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Life_Death_Future_Continuity_Legacy_Temporality",
+        "theme_explanation_summary": "Laudomia exists as three interconnected cities (living_ dead_ unborn)_ reflecting on legacy_ continuity_ and temporality's anxieties.",
+        "prevailing_mood_tags": "Reflective_Anxious_Interconnected_Existential",
+        "observed_rhetorical_strategies": "Triadic_structure_Metaphor_(hourglass_funnel)_Philosophical_speculation_Detailed_imagery",
+        "primary_theme": "Life"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.27692073107582,
+          46.08217453591309
+        ]
+      },
+      "properties": {
+        "city_id": 47,
+        "city_name": "Perinthia",
+        "city_s_defining_characteristics_keywords": "Astronomically_planned_city_harmony_of_firmament_city_of_monsters_order_of_gods_paradox",
+        "key_symbolic_features_list": "Decumanus_cardo_zodiac_houses_constellations_gates_moon_eclipse_cripples_dwarfs_hunchbacks_three_headed_children_hidden_monsters",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Order_Chaos_Determinism_Free_Will_Paradox_Divine_Plan",
+        "theme_explanation_summary": "Perinthia's perfect astronomical design results in a city of monsters_ questioning divine order or human calculation.",
+        "prevailing_mood_tags": "Paradoxical_Dystopian_Ordered_Monstrous",
+        "observed_rhetorical_strategies": "Juxtaposition_(ideal_plan/monstrous_reality)_Irony_Descriptive_listing_Philosophical_dilemma",
+        "primary_theme": "Order"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.7202521643669,
+          34.168458450087336
+        ]
+      },
+      "properties": {
+        "city_id": 48,
+        "city_name": "Procopia",
+        "city_s_defining_characteristics_keywords": "Ever_increasing_population_static_view_confined_space_disappearing_landscape_polite_crowd",
+        "key_symbolic_features_list": "Same_inn_room_window_view_ditch_bridge_medlar_corn_field_multiplying_faces_round_faces_freckles_blackberries_gnawed_corn_sky_disappears",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Population_Growth_Space_Confinement_Observation_Change",
+        "theme_explanation_summary": "Procopia's landscape is gradually obscured by an ever-increasing_ yet polite_ population within a confined view.",
+        "prevailing_mood_tags": "Crowded_Suffocating_Polite_Observational_Incremental",
+        "observed_rhetorical_strategies": "Repetitive_narrative_Incremental_change_Detailed_observation_Understated_humor",
+        "primary_theme": "Population"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1446663223437,
+          47.71495645372251
+        ]
+      },
+      "properties": {
+        "city_id": 49,
+        "city_name": "Raissa",
+        "city_s_defining_characteristics_keywords": "Unhappy_city_hidden_happy_city_invisible_thread_interconnected_moments_unaware_existence",
+        "key_symbolic_features_list": "Wringing_hands_cursing_children_bad_dreams_broken_dishes_vs_laughing_child_dog_polenta_serving_maid_umbrella_maker_officer_flying_horse_francolin_painter",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Happiness_Sadness_Duality_Interconnection_Unawareness_Perspective",
+        "theme_explanation_summary": "Raissa_ city of sadness_ unknowingly contains moments of happiness linked by an invisible thread of interconnected lives.",
+        "prevailing_mood_tags": "Melancholic_Hopeful_Dualistic_Interconnected_Unaware",
+        "observed_rhetorical_strategies": "Juxtaposition_Metaphor_(invisible_thread)_Chain_of_events_Philosophical_statement",
+        "primary_theme": "Happiness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.17800863971789,
+          45.94334592246643
+        ]
+      },
+      "properties": {
+        "city_id": 50,
+        "city_name": "Andria",
+        "city_s_defining_characteristics_keywords": "Artfully_built_celestial_correspondence_painstakingly_regimented_constant_innovation_sky_reflects_city_changes",
+        "key_symbolic_features_list": "Planet_orbits_constellations_stars_city_calendar_firmament_map_suspended_street_shadow_theater_river_port_nova_explosion_nebula_expansion_Milky_Way_bending",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Order_Change_Cosmic_Correspondence_Innovation_Self_Confidence_Prudence",
+        "theme_explanation_summary": "Andria's perfect celestial order is not static; city innovations cause corresponding changes in the sky.",
+        "prevailing_mood_tags": "Ordered_Dynamic_Confident_Harmonious_Prudent",
+        "observed_rhetorical_strategies": "Juxtaposition_(initial_perception/reality)_Dialogue_Detailed_description_Symbolic_correspondence",
+        "primary_theme": "Order"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.34383927016258,
+          43.6432554543236
+        ]
+      },
+      "properties": {
+        "city_id": 51,
+        "city_name": "Cecilia",
+        "city_s_defining_characteristics_keywords": "Illustrious_city_indistinguishable_from_outside_goatherd_vs_narrator_mingled_places_everywhere_nowhere",
+        "key_symbolic_features_list": "Goatherd_tinkling_flock_grazing_lands_(Meadow_between_Cliffs_Green_Slope_Shadowed_Grass)_cities_as_nameless_places_identical_houses_lost_traveler_mingled_identities",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Perception_Identity_Place_Perspective_Intermingling_Universality",
+        "theme_explanation_summary": "Cecilia becomes everywhere and nowhere_ as distinctions between city and non-city_ or specific locations_ dissolve through perspective.",
+        "prevailing_mood_tags": "Ubiquitous_Indistinguishable_Lost_Intermingled",
+        "observed_rhetorical_strategies": "Dialogue_Contrasting_perspectives_Anecdotal_narrative_Paradox",
+        "primary_theme": "Perception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.33151555401038,
+          44.207690055414766
+        ]
+      },
+      "properties": {
+        "city_id": 52,
+        "city_name": "Marozia",
+        "city_s_defining_characteristics_keywords": "Two_cities_rat_swallow_sibyl's_prophecy_changing_relationship_hidden_transformation_crystalline_moment",
+        "key_symbolic_features_list": "Rat_city_(leaden_passages_voraciousness)_swallow_city_(summer_sky_wings_transparent_air)_suspicious_umbrellas_batlike_overcoats_crack_in_wall_crystalline_dragonfly",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Duality_Transformation_Prophecy_Perception_Hope_Oppression",
+        "theme_explanation_summary": "Marozia embodies two states_ oppressive (rat) and liberated (swallow)_ with the latter struggling to emerge from the former.",
+        "prevailing_mood_tags": "Dualistic_Hopeful_Oppressive_Transformative_Elusive",
+        "observed_rhetorical_strategies": "Allegory_(rat/swallow)_Symbolism_Oracle_interpretation_Juxtaposition",
+        "primary_theme": "Duality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.38888100191431,
+          47.80463207796629
+        ]
+      },
+      "properties": {
+        "city_id": 53,
+        "city_name": "Penthesilea",
+        "city_s_defining_characteristics_keywords": "Diluted_city_indistinct_boundaries_city_vs_outskirts_unclear_existence_limbo_no_outside",
+        "key_symbolic_features_list": "Soupy_city_pale_buildings_plank_fences_corrugated_sheds_vague_spaces_rusty_suburb_workshops_cemetery_carnival_shambles_opaque_polyhedrons",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Boundary_Identity_Existence_Periphery_Urban_Sprawl_Limbo",
+        "theme_explanation_summary": "Penthesilea's sprawling_ undefined form blurs city and periphery_ questioning if an 'outside' or distinct 'inside' exists.",
+        "prevailing_mood_tags": "Amorphous_Disorienting_Endless_Vague_Liminal",
+        "observed_rhetorical_strategies": "Descriptive_listing_Dialogue_Rhetorical_questions_Negative_definition",
+        "primary_theme": "Boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.02144185810934,
+          49.75917342728036
+        ]
+      },
+      "properties": {
+        "city_id": 54,
+        "city_name": "Theodora",
+        "city_s_defining_characteristics_keywords": "Recurrent_invasions_animal_extinction_human_city_forgotten_fauna_mythical_creatures_return",
+        "key_symbolic_features_list": "Condors_serpents_spiders_flies_termites_woodworms_rats_Buffon_Linnaeus_library_incunabula_sphinxes_griffons_chimeras_unicorns",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Conflict_Nature_Civilization_Myth_Resurgence_Memory_Forgetting",
+        "theme_explanation_summary": "Theodora_ after eradicating all animal life_ faces the resurgence of forgotten mythological fauna_ challenging its human-centric order.",
+        "prevailing_mood_tags": "Aseptic_Violent_Mythical_Ironic_Resurgent",
+        "observed_rhetorical_strategies": "Historical_narrative_Listing_Irony_Symbolic_return",
+        "primary_theme": "Conflict"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.73173780500102,
+          50.957342574070175
+        ]
+      },
+      "properties": {
+        "city_id": 55,
+        "city_name": "Berenice",
+        "city_s_defining_characteristics_keywords": "Unjust_city_hidden_just_city_malignant_seed_temporal_succession_intertwined_futures_inextricable",
+        "key_symbolic_features_list": "Meat_grinding_machines_vs_makeshift_wires_pipes_perfumed_baths_vs_austere_habits_rice_celery_soup_pride_of_just_bitterness_rivalry_awakening_love_for_justice",
+        "latitude": null,
+        "longitude": null,
+        "dominant_theme_keywords": "Justice_Injustice_Duality_Corruption_Potential_Temporality_Interconnectedness",
+        "theme_explanation_summary": "Berenice comprises intertwined cities of just and unjust_ each containing the seed of the other_ in a complex temporal succession.",
+        "prevailing_mood_tags": "Complex_Layered_Moral_Paradoxical_Hopeful_Cautionary",
+        "observed_rhetorical_strategies": "Juxtaposition_Metaphor_(seed_climbing_plant)_Philosophical_argument_Conditional_statements_Detailed_contrast",
+        "primary_theme": "Justice"
+      }
+    }
+  ]
+}

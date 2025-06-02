@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptual Cities Story Map</title>
+    <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            overflow: hidden; /* Prevent body scroll, sidebar will scroll */
+        }
+        #sidebar {
+            width: 35%;
+            min-width: 300px; /* Prevent sidebar from becoming too narrow */
+            max-width: 500px; /* Optional: prevent sidebar from becoming too wide */
+            height: 100%; 
+            overflow-y: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ddd;
+        }
+        #map {
+            width: 65%;
+            height: 100%;
+            background-color: #f0f0f0; /* Fallback/initial color */
+        }
+        .city-section {
+            margin-bottom: 15px; /* Reduced margin */
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-left-color 0.3s ease;
+            border-left: 5px solid transparent; /* For smooth transition of active state */
+        }
+        .city-section:hover {
+            background-color: #e9e9e9;
+        }
+        .city-section.active {
+            background-color: #dce8f5; /* Softer blue highlight */
+            border-left: 5px solid #007cbf;
+        }
+        .city-section h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #2c3e50; /* Darker, more modern blue-gray */
+        }
+        .city-section p {
+            margin-bottom: 8px;
+            line-height: 1.5;
+            font-size: 0.9em;
+            color: #34495e; /* Slightly softer text color */
+            word-wrap: break-word; 
+        }
+        .city-section p strong {
+            color: #2c3e50; /* Stronger emphasis color */
+            font-weight: 600;
+        }
+        .city-divider {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0; /* Lighter divider */
+            margin-top: 20px; 
+            margin-bottom: 20px;
+        }
+        .maplibregl-ctrl-attrib-inner { /* Make attribution less prominent for abstract map */
+            font-size: 0.75em;
+            padding: 2px 4px;
+            background: rgba(255,255,255,0.7);
+        }
+        /* Initial message styling */
+        #sidebar p.status-message {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        /* Legend styles */
+        #legend {
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        <p class="status-message">Loading city data...</p>
+    </div>
+
+    <div id="map"></div>
+    <div id="legend"></div>
+
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const map = new maplibregl.Map({
+                container: 'map',
+                style: {
+                    version: 8,
+                    name: 'Empty',
+                    sources: {},
+                    layers: [{
+                        id: 'background',
+                        type: 'background',
+                        paint: { 'background-color': '#f0f0f0' }
+                    }]
+                },
+                center: [0, 0], 
+                zoom: 1,        
+                attributionControl: true 
+            });
+
+            const sidebar = document.getElementById('sidebar');
+            let geojsonDataStore = null; 
+            const FLY_TO_ZOOM_SINGLE_CITY = 7; // Zoom level when flying to a specific city
+
+            map.on('load', async () => {
+                try {
+                    const response = await fetch('Invisible_Cities_Conceptual.geojson');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}. Make sure 'Invisible_Cities_Conceptual.geojson' is in the same folder as index.html.`);
+                    }
+                    geojsonDataStore = await response.json();
+
+                    if (!geojsonDataStore || !geojsonDataStore.features || geojsonDataStore.features.length === 0) {
+                        sidebar.innerHTML = "<p class='status-message'>No city data found in 'Invisible_Cities_Conceptual.geojson'.</p>";
+                        return;
+                    }
+                    
+                    sidebar.innerHTML = ''; // Clear "Loading..." message
+                    populateSidebar(geojsonDataStore.features);
+                    addMapLayersAndInteractions(geojsonDataStore);
+                    adjustMapViewToFitAllFeatures(geojsonDataStore.features);
+
+                } catch (error) {
+                    console.error("Failed to load or process GeoJSON data:", error);
+                    sidebar.innerHTML = `<p class='status-message'>Error loading city data: ${error.message}</p>`;
+                }
+
+                // Create legend
+                const themeColors = {
+                    // --- 主题和高频主题 ---
+                    "Memory":           '#4B6A94', // 记忆 - 深邃蓝
+                    "Desire":           '#D66B8E', // 欲望 - 玫瑰红
+                    "Perception":       '#E5915F', // 感知 - 洞察橙
+                    "Duality":          '#4BA192', // 二元性 - 湖水青
+                    "Order":            '#8C6E64', // 秩序 - 稳定棕
+                    "Time":             '#70A37F', // 时间 - 苔藓绿
+                    "Happiness":        '#F2C36B', // 幸福 - 暖阳黄
+                    "Semiotics":        '#8E74A8', // 符号学 - 神秘紫
+
+                    // --- 其他单一主题 ---
+                    "Boundary":         '#A6C4E5', // 边界 - 天空蓝
+                    "Change":           '#E4B57C', // 变化 - 沙丘色
+                    "Choice":           '#D4A5B8', // 选择 - 浅藕荷
+                    "Conflict":         '#E38383', // 冲突 - 砖红
+                    "Construction":     '#A98E86', // 建造 - 石灰色
+                    "Consumerism":      '#F4A77B', // 消费主义 - 珊瑚橘
+                    "Domesticity":      '#BCA29A', // 日常 - 暖灰
+                    "Hiddenness":       '#637C78', // 隐藏 - 深松绿
+                    "History":          '#9D897F', // 历史 - 古籍色
+                    "Imagination":      '#C490B4', // 想象 - 兰花紫
+                    "Incompleteness":   '#BDBDAE', // 不完整 - 亚麻色
+                    "Justice":          '#7C9BAB', // 公正 - 钢青色
+                    "Language":         '#B4A186', // 语言 - 羊皮纸
+                    "Life":             '#A4C488', // 生命 - 嫩绿
+                    "Perspective":      '#88B7C4', // 视角 - 冰川蓝
+                    "Possibility":      '#DCE4A3', // 可能性 - 芥末黄
+                    "Precarity":        '#B2837E', // 不稳定 - 赤陶色
+                    "Relationships":    '#E49FAB', // 关系 - 桃色
+                    "Roles":            '#A790C4', // 角色 - 薰衣草紫
+                    "Sameness":         '#A4A4A4', // 同质 - 中性灰
+                    
+                    "Default":          '#cccccc'  // 备用颜色
+                };
+
+                const legend = document.getElementById('legend');
+
+                for (const theme in themeColors) {
+                    if (themeColors.hasOwnProperty(theme)) {
+                        const color = themeColors[theme];
+
+                        const legendItem = document.createElement('div');
+                        legendItem.className = 'legend-item';
+
+                        const colorBox = document.createElement('span');
+                        colorBox.className = 'legend-color';
+                        colorBox.style.backgroundColor = color;
+
+                        const themeText = document.createElement('span');
+                        themeText.textContent = theme;
+
+                        legendItem.appendChild(colorBox);
+                        legendItem.appendChild(themeText);
+
+                        legend.appendChild(legendItem);
+                    }
+                }
+
+                // Adjust map view to fit all features
+                adjustMapViewToFitAllFeatures(geojsonDataStore.features);
+
+                // Create a reusable popup instance
+                const popup = new maplibregl.Popup({
+                    closeButton: false,
+                    closeOnClick: false
+                });
+
+                // Mouse enter event listener
+                map.on('mouseenter', 'city-markers', (e) => {
+                    // Change the cursor style as a UI indicator.
+                    map.getCanvas().style.cursor = 'pointer';
+
+                    const coordinates = e.features[0].geometry.coordinates.slice();
+                    const cityName = e.features[0].properties.city_name;
+
+                    // Ensure that if the map is zoomed out such that multiple
+                    // copies of the feature are visible, the popup appears
+                    // over the copy being pointed to.
+                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                    }
+
+                    // Populate the popup and set its coordinates
+                    // based on the feature found.
+                    popup.setLngLat(coordinates)
+                        .setHTML(cityName)
+                        .addTo(map);
+                });
+
+                // Mouse leave event listener
+                map.on('mouseleave', 'city-markers', () => {
+                    map.getCanvas().style.cursor = '';
+                    popup.remove();
+                });
+            });
+
+            function populateSidebar(features) {
+                features.forEach((feature, index) => {
+                    const props = feature.properties;
+                    const cityId = props.city_id !== undefined ? String(props.city_id) : `city-idx-${index}`;
+                    const coordinates = feature.geometry.coordinates;
+
+                    const section = document.createElement('div');
+                    section.className = 'city-section';
+                    section.id = `city-section-${cityId}`;
+                    section.dataset.cityId = cityId; // Store for potential use, though id is primary
+                    section.dataset.coordinates = JSON.stringify(coordinates);
+
+                    const formatListString = (str) => str ? str.replace(/_/g, ', ') : 'N/A';
+
+                    section.innerHTML = `
+                        <h3>${props.city_name || 'Unnamed City'}</h3>
+                        <p><strong>Defining Characteristics (Keywords):</strong> ${formatListString(props.city_s_defining_characteristics_keywords)}</p>
+                        <p><strong>Key Symbolic Features (List):</strong> ${formatListString(props.key_symbolic_features_list)}</p>
+                        <p><strong>Dominant Theme (Keywords):</strong> ${formatListString(props.dominant_theme_keywords)}</p>
+                        <p><strong>Theme Explanation:</strong> ${props.theme_explanation_summary || 'N/A'}</p>
+                        <p><strong>Prevailing Mood (Tags):</strong> ${formatListString(props.prevailing_mood_tags)}</p>
+                        <p><strong>Rhetorical Strategies:</strong> ${formatListString(props.observed_rhetorical_strategies)}</p>
+                        <p style="margin-top: 15px; font-style: italic; color: #7f8c8d;">Conceptual representation for ${props.city_name || 'this city'}</p>
+                        ${index < features.length - 1 ? '<hr class="city-divider">' : ''}
+                    `;
+
+                    section.addEventListener('click', () => {
+                        const coords = JSON.parse(section.dataset.coordinates);
+                        map.flyTo({
+                            center: coords,
+                            zoom: FLY_TO_ZOOM_SINGLE_CITY,
+                            speed: 0.8,
+                            essential: true 
+                        });
+                        highlightSidebarSection(cityId);
+                    });
+                    sidebar.appendChild(section);
+                });
+            }
+
+            function addMapLayersAndInteractions(data) {
+                if (map.getSource('cities')) {
+                    map.removeLayer('city-markers');
+                    map.removeSource('cities');
+                }
+                map.addSource('cities', {
+                    type: 'geojson',
+                    data: data
+                });
+
+                map.addLayer({
+                    id: 'city-markers',
+                    type: 'circle',
+                    source: 'cities',
+                    paint: {
+                        'circle-radius': [
+                            'interpolate', ['linear'], ['zoom'],
+                            0, 2,
+                            FLY_TO_ZOOM_SINGLE_CITY - 2, 5,
+                            FLY_TO_ZOOM_SINGLE_CITY + 2, 8
+                        ],
+                        'circle-color': [
+                            'match',
+                            ['get', 'primary_theme'],
+                            'Duality', '#a6cee3',
+                            'Perception', '#1f78b4',
+                            'Memory', '#b2df8a',
+                            'Desire', '#33a02c',
+                            'Order', '#fb9a99',
+                            'Happiness', '#e31a1c',
+                            'Time', '#fdbf6f',
+                            'Boundary', '#ff7f00',
+                            'Change', '#cab2d6',
+                            'Conflict', '#6a3d9a',
+                            'Construction', '#ffff99',
+                            'Consumerism', '#b15928',
+                            'Domesticity', '#f0027f',
+                            'Hiddenness', '#999999',
+                            'History', '#66c2a5',
+                            'Imagination', '#fc8d62',
+                            'Incompleteness', '#8da0cb',
+                            'Justice', '#e78ac3',
+                            'Language', '#a8ddb5',
+                            'Life', '#bebada',
+                            'Perspective', '#80b1d3',
+                            'Possibility', '#fddbc7',
+                            'Precarity', '#d9d9d9',
+                            'Relationships', '#bc80bd',
+                            'Roles', '#d6604f',
+                            'Sameness', '#b3de69',
+                            'Semiotics', '#404040',
+                            /* default color */ '#cccccc'
+                        ],
+                        'circle-stroke-width': [
+                            'interpolate', ['linear'], ['zoom'],
+                            0, 0.5,
+                            FLY_TO_ZOOM_SINGLE_CITY, 2
+                        ],
+                        'circle-stroke-color': '#ffffff',
+                        'circle-pitch-alignment': 'map'
+                    }
+                });
+
+                map.on('click', 'city-markers', (e) => {
+                    if (e.features && e.features.length > 0) {
+                        const feature = e.features[0];
+                        const props = feature.properties;
+                        const cityId = props.city_id !== undefined ? String(props.city_id) : findCityIdByIndex(feature, geojsonDataStore.features);
+
+                        if (cityId !== null) {
+                            const section = document.getElementById(`city-section-${cityId}`);
+                            if (section) {
+                                section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                highlightSidebarSection(cityId);
+                                map.flyTo({
+                                    center: feature.geometry.coordinates,
+                                    zoom: FLY_TO_ZOOM_SINGLE_CITY,
+                                    speed: 0.8,
+                                    essential: true
+                                });
+                            }
+                        }
+                    }
+                });
+
+                map.on('mouseenter', 'city-markers', () => map.getCanvas().style.cursor = 'pointer');
+                map.on('mouseleave', 'city-markers', () => map.getCanvas().style.cursor = '');
+            }
+            
+            function findCityIdByIndex(clickedFeature, allFeatures) {
+                // This fallback assumes that if city_id is missing, the feature can be identified by its position in the original array.
+                // MapLibre features might not retain original index directly, so we compare.
+                // This is fragile if features are not unique enough without city_id.
+                // For simplicity, we're iterating to find the original index.
+                // A more robust way would be to assign a unique internal ID to each feature if city_id is unreliable.
+                for (let i = 0; i < allFeatures.length; i++) {
+                    // Basic check, assumes coordinates are primary differentiators if ID is missing
+                    if (allFeatures[i].geometry.coordinates[0] === clickedFeature.geometry.coordinates[0] &&
+                        allFeatures[i].geometry.coordinates[1] === clickedFeature.geometry.coordinates[1] &&
+                        allFeatures[i].properties.city_name === clickedFeature.properties.city_name) { // Add name check for more robustness
+                        return `city-idx-${i}`;
+                    }
+                }
+                return null; 
+            }
+
+            function highlightSidebarSection(activeCityId) {
+                document.querySelectorAll('.city-section').forEach(sec => {
+                    if (sec.id === `city-section-${activeCityId}`) {
+                        sec.classList.add('active');
+                    } else {
+                        sec.classList.remove('active');
+                    }
+                });
+            }
+
+            function adjustMapViewToFitAllFeatures(features) {
+                if (!features || features.length === 0) { // Should be caught earlier, but defensive
+                    map.setCenter([0, 0]);
+                    map.setZoom(1);
+                    return;
+                }
+
+                const coordinates = features.map(feature => feature.geometry.coordinates);
+
+                if (coordinates.length === 1) {
+                    map.flyTo({ // Use flyTo for smooth transition even for initial single point
+                        center: coordinates[0],
+                        zoom: Math.max(1, FLY_TO_ZOOM_SINGLE_CITY - 2), // Slightly zoomed out from single city focus
+                        essential: true,
+                        duration: 0 // Instant for initial load
+                    });
+                    return;
+                }
+                
+                const bounds = new maplibregl.LngLatBounds();
+                coordinates.forEach(coord => {
+                    bounds.extend(coord);
+                });
+
+                map.fitBounds(bounds, {
+                    padding: {top: 60, bottom:60, left: 60, right: 60}, // Generous padding
+                    maxZoom: FLY_TO_ZOOM_SINGLE_CITY + 3, // Allow reasonable zoom in if points are close
+                    duration: 0 // Fit bounds instantly on initial load
+                });
+            }
+        });
+    </script>
+</body>
+</html>
